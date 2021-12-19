@@ -89,3 +89,57 @@ public class AyusDesserts {
 	}
 
 }
+
+/* PROBLEM STATEMENT
+Ayu’s Shopping
+Ayu is keen on desserts. She found that she will run out of them soon so she decided to buy some more today. Her favorite
+dessert shop offers several flavors (banana, grape, vanilla, etc.) for every kind of dessert (candy, cake, ice-cream, etc.). Ayu
+has M dollars and she wants to spend as much of that money as possible. She also doesn’t want to get too fat so she
+decided to buy only one flavor of each kind of dessert. The question is how much money will she spend.
+
+Input
+The first line of the input contains two integers M (1 <= M <= 200) and N (1 <= N <= 20), indicating the amount of money
+Ayu has and the number of different kinds of desserts. Each of the following N lines contains K + 1 integers where K is the
+first integer of that line (1 <= K <= 20), indicating the number of flavors for this kind of dessert. The following K integers
+indicate the price for each flavor of the dessert (these are integers).
+
+Output
+Print one line consisting of one integer indicating the maximum amount of money spent to buy one flavor of each kind of
+dessert, or no solution if there is no solution.
+
+EXAMPLES
+Example 1
+
+Input:
+100 4
+3 8 6 4
+2 5 10
+4 1 3 3 7
+4 50 14 23 8
+
+Output: (by picking 8, 10, 7 and 50)
+75
+
+
+Example 2
+
+Input:
+20 3
+3 4 6 8
+2 5 10
+4 1 3 5 5
+
+Output:
+19
+
+Example 3
+Input:
+5 3
+3 6 4 8
+2 10 6
+4 7 3 1 7
+
+Output:
+no solution
+
+*/
